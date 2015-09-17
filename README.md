@@ -9,7 +9,7 @@ To use the program, type on the terminal the following command,
     
   Do not run the above 'example' on your computer or else everything will get encrypted from the root of your computer.
   
-Do decrypt just comment out the decryption part and comment the encryption part(but not the key).
+To decrypt just comment out the decryption part and comment the encryption part(but not the key).
     
 This is a very dangerous code. Use it with caution
     
