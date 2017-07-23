@@ -1,15 +1,23 @@
 # Encryption-Malware
 This python program Encrypts everything with AES 256 bit algorithm.
 
+### Usage
+
 To use the program, type on the terminal the following command,
 
-        python <filename>.py <the directory from where you want to encrypt>
-        
-    e.g:- python encryption.py /   (So this will encrypt everything from "root")
-    
-  Do not run the above 'example' on your computer or else everything will get encrypted from the root of your computer.
+    python <filename>.py -flag <the directory from where you want to encrypt>
+
+Encryption
+
+    e.g:- python -e encryption.py /   (So this will encrypt everything from "root")
+
+Decryption
+
+    e.g:- python -d encryption.py /
+
+
+  Do not run the above 'examples' on your computer or else everything will get encrypted from the root of your computer.
   
-To decrypt just comment out the decryption part and comment the encryption part(but not the key).
-    
+
+### Note
 This is a very dangerous code. Use it with caution
-    
